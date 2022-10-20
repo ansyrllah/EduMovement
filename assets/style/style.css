@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e5e5e5;
+  padding: 0;
+  margin: 0;
+}
+main {
+  overflow: auto;
+}
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #160032;
+  width: 100%;
+  height: 94px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+nav li {
+  display: inline;
+  margin-right: 5px;
+  padding: 5px;
+}
+.logotype {
+  width: 199px;
+  position: absolute;
+  left: 0px;
+  top: 13px;
+}
+nav a {
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+nav {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+nav a:hover {
+  font-weight: bold;
+  color: #ffbf5f;
+}
+.image {
+  width: 100%;
+  object-position: center;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
+}
+main {
+  margin: 30px 40px;
+}
+h2 {
+  color: #ffbf5f;
+}
+.articlesTitle h2 {
+  color: white;
+  border-radius: 30px 30px;
+  background-color: #ffbf5f;
+  padding: 10px 20px;
+  width: 40%;
+  box-shadow: 40px 0px 0px 0px #160032;
+  margin-top: 40px;
+  line-height: 40px;
+}
+#ourPrograms h3 {
+  box-sizing: border-box;
+  width: 250px;
+  height: 70px;
+  border-radius: 35px;
+  align-items: center;
+  display: flex;
+  padding-left: 10px;
+  color: #ffbf5f;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.programList {
+  background-color: #260056;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  overflow: auto;
+}
+.programList table {
+  padding: 0;
+  margin: 0 !important;
+}
+.programList p {
+  color: white;
+  padding-left: 10px;
+}
+.nameCardList {
+  overflow: auto;
+  margin: 10px auto;
+  background-color: #260056;
+}
+.nameCard {
+  width: 20%;
+  float: left;
+  box-sizing: border-box;
+}
+.nameCard img {
+  width: 70%;
+  margin: 0 auto;
+  padding-left: 11%;
+  align-content: center;
+}
+.nameCard p {
+  text-align: center;
+  margin: 5px 5px;
+  line-height: 20px;
+  color: #ffbf5f;
+  font-size: 15px;
+  width: 70%;
+}
+footer {
+  padding: 20px;
+  background: #ffbf5f;
+  overflow: auto;
+}
+.center {
+  text-align: center;
+}
+.selfIdentity {
+  text-align: center;
+}
+.selfIdentity img {
+  width: 150px;
+  margin: 0 auto;
+}
+ul {
+  list-style-type: none;
+}
+
+footer table {
+  color: white;
+  float: right;
+  width: 60%;
+  font-size: 14px;
+  padding-left: 0px;
+}
+table strong {
+  color: #160032;
+}
+.logomark {
+  background-color: #ffffff;
+  border-radius: 30px 30px 30px 30px;
+  float: left;
+  width: 10%;
+}
+.logotype_footer {
+  float: left;
+  width: 30%;
+}
+aside {
+  background-color: #ffbf5f;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  border-radius: 40px 40px;
+}
+aside h3 {
+  padding-top: 20px;
+  color: #260056;
+}
+aside img {
+  margin: 0 auto;
+}
+
+@media screen and (max-widht: 700px) {
+  nav a {
+    font-weight: 700;
+    font-size: 4px;
+    color: white;
+    text-align: right;
+    align-items: right;
+  }
+}
